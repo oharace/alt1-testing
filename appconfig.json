@@ -1,0 +1,12 @@
+{
+  "appName": "TreasureTrailLogger",
+  "description": "Logs your treasure trail loot and achievements",
+  "appUrl": "./index.html",
+  "configUrl": "./appconfig.json",
+  "iconUrl": "./images/icon.png",
+  "defaultWidth": 197,
+  "defaultHeight": 236,
+  "requestHandlers": [],
+  "activators": [],
+  "permissions": "pixel,gamestate,overlay"
+}

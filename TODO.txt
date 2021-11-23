@@ -1,0 +1,3 @@
+AppConfig
+- App Icon (caskets)
+- Default width/height
