@@ -17,12 +17,14 @@ A1lib.ImageData.fromBase64(function (i) { TreasureTrailLogger.easyCasketFinderIm
 
 
 function TreasureTrailLogger() {
-	// var me = this;
+	var me = this;
 
-	findEasyCaskets() {
+	this.findEasyCaskets = function () {
 		let screenImage = A1lib.captureHoldFullRs();
 		let position = screenImage.findSubimage(TreasureTrailLogger.easyCasketFinderImage);
 
 		console.log(position);
+
+		return 0;
 	}
 }
