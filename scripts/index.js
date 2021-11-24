@@ -14,7 +14,7 @@ function TreasureTrailLogger() {
 
 	this.testing = function () {
 		let screenImage = A1lib.captureHoldFullRs();
-		let position = screenImage.findSubimage(TreasureTrailLogger.ectoplasmator);
+		let position = screenImage.findSubimage(TreasureTrailLogger.ectoImg);
 
 		console.log("ecto position");
 		console.log(position);
