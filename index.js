@@ -18,7 +18,7 @@ A1lib.ImageDetect.imageDataFromBase64(shark).then(function (i) { TreasureTrailLo
 A1lib.ImageDetect.imageDataFromBase64(fontDigits).then(function (i) { TreasureTrailLogger.fontDigits = i }, function (i) { console.log("Could not load the font digits image.") });
 
 A1lib.ImageDetect.imageDataFromBase64(fontDigits).then(function (i) { fontImage = i }, function (i) { console.log("Could not load the font digits image.") });
-let font = OCR.generatefont(fontImage, "0123456789m()", "", {}, 7, 4, 0.9, true);
+// let font = OCR.generatefont(fontImage, "0123456789m()", "", {}, 7, 4, 0.9, true);
 
 function TreasureTrailLogger() {
 	var me = this;
