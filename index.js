@@ -15,8 +15,9 @@ A1lib.ImageDetect.imageDataFromBase64("iVBORw0KGgoAAAANSUhEUgAAACMAAAAVCAIAAABDm
 
 A1lib.ImageDetect.imageDataFromBase64(ectoplasmator).then(function (i) { TreasureTrailLogger.ectoImg = i }, function (i) { console.log("Could not load the ectoplasmator image.") });
 A1lib.ImageDetect.imageDataFromBase64(shark).then(function (i) { TreasureTrailLogger.shark = i }, function (i) { console.log("Could not load the shark image.") });
-A1lib.ImageDetect.imageDataFromBase64(fontDigits).then(function (i) { TreasureTrailLogger.fontDigits = i, fontImage = i }, function (i) { console.log("Could not load the font digits image.") });
+A1lib.ImageDetect.imageDataFromBase64(fontDigits).then(function (i) { TreasureTrailLogger.fontDigits = i }, function (i) { console.log("Could not load the font digits image.") });
 
+A1lib.ImageDetect.imageDataFromBase64(fontDigits).then(function (i) { fontImage = i }, function (i) { console.log("Could not load the font digits image.") });
 let font = OCR.generatefont(fontImage, "0123456789m()", "", {}, 7, 4, 0.9, true);
 
 function TreasureTrailLogger() {
